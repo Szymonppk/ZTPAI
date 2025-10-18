@@ -1,11 +1,16 @@
 # ZTPAI
-ZTPAI Project
+**ZTPAI Project**
 
-🛠️ Technology Stack
+🛠️ **Technology Stack**  
 The project's architecture is built on three main pillars:
 
-Frontend: React The user interface is built using the React library. It enables the creation of dynamic and efficient single-page applications (SPA) based on a component-driven architecture.
+**Frontend**: React The user interface is built using the React library. It enables the creation of dynamic and efficient single-page applications (SPA) based on a component-driven architecture.
 
-Backend: FastAPI The server side is powered by the FastAPI (Python) framework. It was selected for its high performance, simplicity, and built-in automatic API documentation (Swagger UI).
+**Backend**: FastAPI The server side is powered by the FastAPI (Python) framework. It was selected for its high performance, simplicity, and built-in automatic API documentation (Swagger UI).
 
-Database: MySQL MySQL is used as the Database Management System (DBMS). It is a proven and reliable relational database, providing efficient data storage and management for the application.
+**Database**: MySQL MySQL is used as the Database Management System (DBMS). It is a proven and reliable relational database, providing efficient data storage and management for the application.
+
+Prototype:
+
+<img width="1011" height="529" alt="image" src="https://github.com/user-attachments/assets/69e8e996-0b5a-4173-b002-cda21f402f65" />
+
