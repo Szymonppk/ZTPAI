@@ -60,5 +60,18 @@ def get_scales(api_key_valid: bool = Depends(verify_api_key)):
 
     return DB_SCALES  # Framework automatycznie ustawia status 200 i zmienia obiekt na JSON
 
+@app.get("/api/scales/{id}")
+def get_scale(id: int):  # Jesli nie bedzie int zwroci blad 422 Unprocessable Entity
 
+    found_scale = None
+    for scale in DB_SCALES:
+        if scale["id"] == id:
+            found_scale = scale
+            break  
 
+    if found_scale:
+        return found_scale
+    else:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Couldn't find a scale with id: {id}, Code: 404")
