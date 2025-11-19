@@ -1,16 +1,23 @@
-# ZTPAI
-**ZTPAI Project**
+# 🎵 SmartLyra
 
-🛠️ **Technology Stack**  
-The project's architecture is built on three main pillars:
+### Music Analysis & Tab Tool
 
-**Frontend**: React The user interface is built using the React library. It enables the creation of dynamic and efficient single-page applications (SPA) based on a component-driven architecture.
+This project provides audio analysis for scale suggestions and a simple database for saving guitar tabs.
 
-**Backend**: FastAPI The server side is powered by the FastAPI (Python) framework. It was selected for its high performance, simplicity, and built-in automatic API documentation (Swagger UI).
+---
 
-**Database**: MySQL MySQL is used as the Database Management System (DBMS). It is a proven and reliable relational database, providing efficient data storage and management for the application.
+## 🛠️ Technology Stack
+
+### **Frontend: React**
+A streamlined UI built with React. It manages audio file uploads for analysis and provides a simple interface where users can write, save, and view their guitar tablature.
+
+### **Backend: FastAPI & Librosa**
+An efficient API powered by FastAPI (Python). It uses Librosa to perform pitch detection on uploaded audio and suggest matching musical scales. It also provides the necessary CRUD endpoints to manage saved tabs in the database.
+
+### **Database: MySQL**
+A MySQL relational database serves as the persistence layer. Its primary role is to store user-created guitar tabs, allowing them to be saved and retrieved on demand.
 
 Prototype:
 
-<img width="1011" height="529" alt="image" src="https://github.com/user-attachments/assets/69e8e996-0b5a-4173-b002-cda21f402f65" />
+<img width="2560" height="1440" alt="SL-Prototype" src="https://github.com/user-attachments/assets/feeb3bbe-495e-4515-aba1-8573c0f6def0" />
 
