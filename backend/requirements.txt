@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+librosa
+scikit-learn
+numpy
+sqlalchemy
+mysql-connector-python
+pydantic
