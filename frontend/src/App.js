@@ -4,9 +4,9 @@ import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <>
+    <div className='w-full h-screen overflow-hidden'>
       <HomePage/>
-    </>
+    </div>
   );
 }
 
